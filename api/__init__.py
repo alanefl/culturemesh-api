@@ -20,7 +20,6 @@ from api.blueprints.languages.controllers import languages
 from api.blueprints.accounts.controllers import accounts
 
 
-
 api.register_blueprint(users, url_prefix='/user')
 api.register_blueprint(networks, url_prefix='/network')
 api.register_blueprint(posts, url_prefix='/post')
